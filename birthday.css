@@ -72,8 +72,23 @@ h1{
 
 .bal1{
     background-image: url(bal.jpg);
+    background-size: 500px 300px;
+    width : auto;
 }
 
 .bal2{
-    background-image: url(balentier.jpg);
+    background-image: url(balentier_opacity.jpg);
+}
+
+.cadreFormulaire{
+    border: 5px double rgb(76, 43, 226);
+    padding: 10px;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+}
+
+.imgTransparent{
+    opacity: 0.8;
+    border: 5px double rgb(76, 43, 226);
 }

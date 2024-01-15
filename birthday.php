@@ -25,26 +25,25 @@
     </div>
     <br>
     <div class="block">
-        <div class="block">
-            <div class="cadre">
-                <div class="centre">
-                    <p class="titreBlock">Informations relatives à la méga fête : <br></p>
-                    <p class="bold">Date :</p>Week-end du 10 et 11 février <br>
-                    <p class="bold">Heure :</p>19h30 samedi 10 février <br>
-                    <p class="bold">Lieu :</p><a href="https://www.lemans.fr/dynamique/la-proximite/les-salles-municipales/le-descriptif-des-salles-municipales/la-salle-du-jardin-des-plantes">Infos sur la salle du jardin des Plantes - Le Mans</a>
-                </div>
-            </div>
-            <div class="cadre">
-                <br>
-                <p class="titreBlock centre">A ne pas oublier : <br></p>
-                <ul>
-                    <li>Votre bonne humeur</li>
-                    <li>Votre affaire pour dormir</li>
-                    <li>Une tenue qui ne craint pas <br>(kermesse en vue pour le dimanche après-midi)</li>
-                    <li>Votre super tenue en lien avec le thème</li>
-                </ul>
+        <div class="cadre">
+            <div class="centre">
+                <p class="titreBlock">Informations relatives à la méga fête : <br></p>
+                <p class="bold">Date :</p>Week-end du 10 et 11 février <br>
+                <p class="bold">Heure :</p>19h30 samedi 10 février <br>
+                <p class="bold">Lieu :</p><a href="https://www.lemans.fr/dynamique/la-proximite/les-salles-municipales/le-descriptif-des-salles-municipales/la-salle-du-jardin-des-plantes">Infos sur la salle du jardin des Plantes - Le Mans</a>
             </div>
         </div>
+        <div class="cadre">
+            <br>
+            <p class="titreBlock centre">A ne pas oublier : <br></p>
+            <ul>
+                <li>Votre bonne humeur</li>
+                <li>Votre affaire pour dormir</li>
+                <li>Une tenue qui ne craint pas <br>(kermesse en vue pour le dimanche après-midi)</li>
+                <li>Votre super tenue en lien avec le thème</li>
+            </ul>
+        </div>
+    
         <div class="cadre bal1" id="newImg">
             <br>
             <p class="titreBlock centre">Pour le fameux thème : Style bal des débutantes<br><br></p>
@@ -55,19 +54,24 @@
             Interdit d'utiliser le DORE ! ça sera ma couleur ;)</p>
         </div>
     </div>
-    <div>
-        <p class=titreBlock>Quelques informations pour moi : </p>
-        <form method='post' action="register.php"> 
-            <label for="nom">Votre nom:</label><br>
-            <input type="test" name="nom" ><br><br>
+    <div class ="block">
+        <img class="centre imgTransparent" src="kermesse.jpg" alt="kermesse" width=22% height=22%>
+        <div class="cadreFormulaire">
+            <p class=titreBlock>Quelques informations pour moi : </p>
+            <form method='post' action="register.php"> 
+                <label for="nom">Votre nom:</label><br>
+                <input type="test" name="nom" ><br><br>
 
-            <label for="nombre">Le nombre de personnes que vous serez:</label><br>
-            <input type="int" name="nombre" ><br><br>
+                <label for="nombre">Le nombre de personnes que vous serez:</label><br>
+                <input type="int" name="nombre" ><br><br>
 
-            <button type="submit">Envoyer votre réponse</button>
-        </form>
-    </div>
-    <p>Total Guests: <?php include 'count_guests.php'; ?></p>
+                <button type="submit">Envoyer votre réponse</button>
+            </form>
+            <p>Nombre total d'invités : <?php include 'count_guests.php'; ?></p>
+        </div>
+        <img class="centre imgTransparent" src="soiree.jpeg" alt="soiree" width=30% height=30%>
+</div>
+    
 
 <script src="birthday.js"></script> 
 </body>
