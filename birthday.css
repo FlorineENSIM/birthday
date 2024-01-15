@@ -20,8 +20,8 @@ h1{
 }
 
 .menu a{
-    width: 200px;
     display: block;
+    width: 300px;
     padding: 10px;
     background-color:  rgb(208, 183, 231);
     text-align: center;
@@ -33,23 +33,47 @@ h1{
 .cadre{
     border: 5px double blueviolet;
     padding: 5px;
-    margin : auto;
+    margin : 10px;
 }
 
 .block{
     display: flex;
+    justify-content: space-around;
 }
 
-/*
 .centre{
-    border: 5px double blueviolet;
     display: block;
     margin: auto;
     padding: 5px;
+    text-align: center;
 }
-*/
+
 
 .titreBlock{
     font-weight: bold;
     text-decoration: underline;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.cadre li {
+    list-style-type: circle;
+}
+
+.paraInvisible{
+    display: none;
+}
+
+.paraVisible{
+    display: block;
+}
+
+.bal1{
+    background-image: url(bal.jpg);
+}
+
+.bal2{
+    background-image: url(balentier.jpg);
 }
